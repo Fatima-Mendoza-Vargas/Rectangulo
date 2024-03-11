@@ -1,0 +1,37 @@
+@startuml
+class Rectangulo {
+- base: float
+- altura: float
++area()
++perimetro(
+ + Rectangulo(float base,float altura,area double,perimetro double)
+     + getBase()
+     + setBase()
+     + getAltura()
+     + setAltura()
+     + getArea()
+     + setArea()
+     + getPerimetro)
+     + setPerimetro()
+     + toString()
+}
+@enduml
+
+@startuml
+
+object  Rectangulo1{
+    base: "50"
+    altura: "5"
+
+}
+@enduml
+
+@startuml
+
+object  Rectangulo2{
+    base: "100"
+    altura: "50"
+
+}
+@enduml
+
